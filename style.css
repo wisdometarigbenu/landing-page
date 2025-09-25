@@ -1,0 +1,78 @@
+* {
+ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color:c;
+    position: relative;
+}
+
+.Wrap{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border: solid black;
+}
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.link{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.link li a{
+    text-decoration: none;
+    color: white;
+}
+
+.fignins {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.fignins .login{
+    text-decoration: none;
+    color: white;
+}
+.fignins .signin{
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+.Writtings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+.Writtings1{
+    max-width: 50%;
+}
+.button{
+    background: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.image {
+    height: 400px;
+}
